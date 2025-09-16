@@ -1,0 +1,390 @@
+.navbar{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url("onlineshop.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-top: 7px;
+}
+.navlogo{
+    width:100px;
+    height:50px;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-icon{
+    
+    gap: 4px;
+    display: flex;
+}
+.nav-address{
+    
+    font-size: smaller;
+    align-items: center;
+}
+.new{
+    
+    margin-top: 20px;
+}
+
+*{
+    margin:0px;
+}
+.nav-search{
+    display: flex;
+    height:30px;
+    width:350px;
+    border-radius: 5px;
+    
+    justify-content: space-evenly;
+    margin-top:20px ;
+    
+
+}
+.dropdown{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    width: 50px;
+    height: 30;
+    text-align: center;
+}
+.searchbox{
+   width:100%;
+    border: none;
+    font-size: large;
+
+}
+.search-icon{
+    background-color: rgb(0, 128, 255);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 45px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    
+    height: 40px;
+    width: 80px;
+    
+    gap: 5px;
+    display: flex;
+    margin-top: 15px;
+}
+.flag{
+    height: 20px;
+    width: 30px;
+    background-image: url("a.webp");
+    background-size: cover;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.lang{
+    font-size: 14px;
+    height: 15px;
+    width: 30px;
+    margin-top: 5px;
+}
+.box5{
+    height: 40.01px;
+    width: 140.89px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.info{
+    font-size: 14px;
+    height: 15px;
+    width:100.52px;
+    color: blue;
+    font-weight: bold;
+}
+.box6{
+    height: 40px;
+    width:68px;
+    margin-top:15px;
+}
+.returns{
+    font-size: 12px;
+    height:13.99px;
+    width: 58.95px;
+}
+.orders{
+    height: 15px;
+    width: 58.95px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.box7{
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    background-image: url("amazoncart.png");
+    background-size: cover;
+}
+.subnav{
+    display: flex;
+    background-color:midnightblue;
+    display: flex;
+    justify-content: space-evenly;
+    height:36px;
+}
+.all{
+    height: 34px;
+    width:50px;
+    color:white;
+    display: flex;
+}
+.fresh{
+    height:34px;
+    width:43.9px;
+    color:white;
+}
+.mxplayer{
+    height:34px;
+    width:50px;
+    color: white;
+}
+.sell{
+    height:34px;
+    width:33.37px;
+    color: white;
+}
+.bestsellers{
+    height:34px;
+    width:77.07px;
+    color: white;
+}
+.deals{
+    height:34px;
+    width:50px;
+    color: white;
+}
+.mobiles{
+    height:34px;
+    width:70px;
+    color: white;
+}
+.prime{
+    height:34px;
+    width:60px;
+    color: white;
+}
+.customerservices{
+    height:34px;
+    width:80.34px;
+    color: white;
+}
+.newreleases{
+    height:34px;
+    width:95.96px;
+    color: white;
+}
+.electronics{
+    height:34px;
+    width:78.72px;
+    color: white;
+}
+.fashion{
+    height:34px;
+    width:68.58px;
+    color: white;
+}
+.hero{
+    background-image: url("bigimage.jpeg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+.Box1{
+    height: 500px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.Box3{
+   height: 500px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+} 
+.insidehero{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 520px;
+    width: 1000px;
+    
+}
+   
+
+.home{
+    height:4%;
+    width:100%;
+    color: black;
+    margin: 10px 10px 20px 10px;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+.cushion{
+    background-image: url("cushion.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 160px;
+    
+    
+}
+.vase{
+    background-image: url("vase.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 160px;
+     
+}
+.homestorage{
+    background-image: url("download.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 160px;
+     
+}
+.lightning{
+    background-image: url("lightning.jpeg");
+    background-size: cover;
+   height: 150px;
+    width: 160px;
+    
+}
+.appliances{
+    height:4%;
+    width:100%;
+    color: black;
+    margin: 10px 10px 20px 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.refrigerator{
+    background-image: url("refrigerator.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 160px;
+    
+    
+}
+.air{
+    background-image: url("air.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 160px;
+     
+}
+.microwave{
+    background-image: url("microwave.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 160px;
+     
+}
+.washingmachine{
+    background-image: url("washingmachine.jpeg");
+    background-size: cover;
+   height: 150px;
+    width: 160px;
+    
+    
+}
+.kit{
+    height:300px;
+    width:1000px;
+    background-color: #F2F2F2;  
+    margin-bottom: 20px;;
+}
+.things{
+    height:90px;width:1000px;
+    color: black;
+    margin: 10px 10px 5px 10px; /* Reduce bottom margin */
+    font-weight: 600;
+    font-size: 30px;
+}
+.images{
+    height:210px;
+    width:1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.utensil1{
+    background-image: url("utensil1.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 220px;
+    margin-right: 20px;
+}
+.utensil2{
+    background-image: url("utensil2.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 220px;
+    margin-right: 20px;
+}
+.utensil3{
+    background-image: url("utensil3.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 220px;
+    margin-right: 15px;
+}
+.utensil4{
+    background-image: url("utensil4.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 220px;
+    margin-right: 15px;;
+}
+.foot-panel1{
+    background-color:#3e375a;
+    color: azure;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+   background-color:#3e375a;
+   color:white; 
+   height:250px;
+   display: flex;
+}
+
+
+
+
+
+
+
+    
